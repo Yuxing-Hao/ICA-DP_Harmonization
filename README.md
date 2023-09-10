@@ -12,7 +12,7 @@ Input:
 Output:  
 **X_ICADP**, the harmonized data by ICA-DP
 ## References
-Hao, Yuxing and Xu, Huashuai and Xia, Mingrui and Yan, Chenwei and Zhang, Yunge and Zhou, Dongyue and Karkkainen, Tommi and Nickerson, Lisa D and Li, Huanjie and Cong, Fengyu. Site effects depth denoising and signal enhancement using dual-projection based ICA model[J]. bioRxiv, 2023: 2023.04. 26.538366.
+Hao, Yuxing and Xu, Huashuai and Xia, Mingrui and Yan, Chenwei and Zhang, Yunge and Zhou, Dongyue and Karkkainen, Tommi and Nickerson, Lisa D and Li, Huanjie and Cong, Fengyu. "Removal of site effects and enhancement of signal using dual projection independent component analysis for pooling multi‐site MRI data." European Journal of Neuroscience (2023).
 
-Xu, Huashuai and Hao, Yuxing and Zhang, Yunge and Zhou, Dongyue and Karkkainen, Tommi and Nickerson, Lisa D and Li, Huanjie and Cong, Fengyu. "Harmonization of multi-site functional MRI data with dual-projection based ICA model." Frontiers in Neuroscience 17: 1225606. 
+Xu, Huashuai and Hao, Yuxing and Zhang, Yunge and Zhou, Dongyue and Karkkainen, Tommi and Nickerson, Lisa D and Li, Huanjie and Cong, Fengyu. "Harmonization of multi-site functional MRI data with dual-projection based ICA model." Frontiers in Neuroscience 17 (2023).
 
