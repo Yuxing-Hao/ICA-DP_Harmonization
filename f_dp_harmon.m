@@ -12,7 +12,6 @@
 function X_ICADP = f_dp_harmon(data, L, Index_Site, covariates)
 
 
-
 Signal = covariates - mean(covariates);
 
 L = L - mean(L);
@@ -30,6 +29,7 @@ Effects_DP = L(:,Index_Site) - Signal*pinv(Signal)*L(:,Index_Site);
 Proj_DP = eye(size(L,1))-Effects_DP*pinv(Effects_DP);
 
 X_ICADP = Proj_DP*data;      %%%% ICA-DP harmonized data
+
 
 
 end
