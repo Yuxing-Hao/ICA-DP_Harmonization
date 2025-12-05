@@ -19,7 +19,7 @@ end
 Index_Site = find(p_site_fdr<0.05);
 
 tmp_ = sort(IRes);
-Thre =  min(tmp_(floor(length(tmp_)/3)),0.7);
+Thre =  tmp_(floor(length(tmp_)/3));
 
 Index_Site = setdiff(Index_Site,find(IRes<Thre));
 
@@ -36,6 +36,7 @@ L_Site = (eye(length(P))-P)*L_Site; %%%% correct procedure
 P_L = L_Site*pinv(L_Site);
 
 X_har = (eye(length(P_L))-P_L)*X;
+
 
 
 
