@@ -23,7 +23,7 @@ Index_Signal = find(p_signal_fdr<0.05);
 
 
 tmp_ = sort(IRes);
-Thre =  min(tmp_(floor(length(tmp_)/3)),0.7);
+Thre =  tmp_(floor(length(tmp_)/3));
 
 Index_Site = setdiff(Index_Site,find(IRes<Thre));
 Index_Signal = setdiff(Index_Signal,find(IRes<Thre));
@@ -47,6 +47,7 @@ L_Site = [L_Site,A(:,Index_Site_pure)];
 P_L = L_Site*pinv(L_Site);
 
 X_har = (eye(length(P_L))-P_L)*X;
+
 
 
 
